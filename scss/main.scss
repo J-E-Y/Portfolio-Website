@@ -23,12 +23,12 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 50px;
+    font-size: 120px;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
-    font-size: 1px; //1
+    font-size: 20px;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
@@ -147,14 +147,14 @@ main {
     margin-bottom: 3rem;
     @include easeOut;
 
-    // &:hover {
-    //   padding: 0.1rem 0.5rem;
-    //   background: $secondary-color;
-    //   color: set-text-color($secondary-color);
-    //   span {
-    //     color: set-text-color($secondary-color);
-    //   }
-    // }
+    &:hover {
+      // padding: 0.1rem 0.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+      }
+    }
   }
 }
 
